@@ -1,0 +1,302 @@
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  /*background: #000;*/
+  background: url('../img/polka.png') repeat;
+}
+
+hr {
+  margin: 35px 0px;
+  border-top: 5px solid #eee;
+}
+
+h2 {
+  font-family: 'Croissant One', cursive;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#main-container {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  visibility: hidden;
+  border: 5px solid #92f7c6;
+  /*border: 2px solid #92f7c6;
+  -webkit-box-shadow: 0px 0px 30px rgba(146, 248, 199, 1);
+  -moz-box-shadow:    0px 0px 30px rgba(146, 248, 199, 1);
+  box-shadow:         0px 0px 30px rgba(146, 248, 199, 1);*/
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.headline {
+  padding: 30px 0px;
+  background-color: #000;
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.headline .span5 {
+  padding: 0px 20px;
+}
+
+.headline .span3 {
+  padding-right: 20px;
+}
+
+.headline h1 {
+  font-family: 'Croissant One', cursive;
+  color: #fff;
+  padding: 40px 0px 0px 50px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.phone {
+  font-size: 24px;
+}
+
+.facebook {
+ font-family: 'Croissant One', cursive; 
+ font-size: 18px;
+ display: inline-block;
+ width: 207px;
+}
+
+.top-contact {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.top-contact a {
+  color: #fff;
+}
+
+.top-contact a:hover {
+  color: #92f7c6;
+}
+
+.bw, .canv, .overlayed {
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); 
+}
+
+.intro {
+  margin-top: 58px;
+}
+
+.intro p {
+  padding: 0px 15px;
+}
+
+.intro p:first-letter {
+  font-size: 100px;
+  float: left;
+  padding: 36px 10px 10px 0px;
+}
+
+.intro .span8 {
+  position: relative;
+}
+
+.title {
+  font-family: 'Croissant One', cursive;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 75px;
+  line-height: 55px;
+}
+
+.ribbon {
+  position: absolute;
+  top: -50px;
+  left: -37px;
+}
+
+.intro-hr {
+  margin-bottom: 0px;
+}
+
+.features .row-fluid {
+  margin-top: 35px;
+}
+
+.features h2 {
+  margin-bottom: 0px;
+}
+
+.features h2 a {  
+  padding-left: 50px;
+  background: url('../img/cupoutline-hover.png') center left no-repeat;
+  color: #000;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.flexslider {
+  border: 0;
+  margin-bottom: 0px;
+  border-bottom: 5px solid #92f7c6;
+  border-top: 5px solid #92f7c6;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  box-shadow: 0;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -o-box-shadow: 0;
+}
+
+.specialties dt {
+  margin-top:20px;
+}
+
+.list-head {
+  font-family: 'Croissant One', cursive;
+  font-size: 18px;
+  text-decoration: underline;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+
+.content {
+  margin-top: 25px;
+}
+
+.content ul {
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.content li {
+  margin-bottom: 7px;
+}
+
+.content dl {
+  padding: 0 15px;
+}
+
+.footer {
+  height: 190px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-cup {
+  position: absolute;
+  bottom: -10px;
+  right: -13px;
+}
+
+.footer-logo {
+  margin: 25px auto 0px auto;
+}
+
+.footer-hr {
+  margin: 35px 0px 8px 0px;
+}
+
+div.addthis_toolbox {
+  width: 270px;
+  margin: 28px auto 0px auto
+}
+
+div.addthis_toolbox a {
+  margin-right: 5px;
+}
+
+/* Responsive */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  body {
+    background: url('../img/polka-big.png') repeat;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding-top: 20px !important;
+  }
+
+  .headline .span3 {
+    margin-left: 200px !important;
+    width: auto !important; 
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    background: #000;
+    padding-top: 20px !important;
+  }
+
+  .headline .span5 {
+    text-align: center;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .frosting {
+    margin-top: 50px;
+  }
+
+  .features .span4, .features .span5 {
+    padding: 15px;
+  }
+
+  .footer {
+    height: 180px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    background: #000;
+    padding-top: 20px !important;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .frosting {
+    margin-top: 50px;
+  }
+
+  .features .span4, .features .span5 {
+    padding: 15px;
+  }
+
+
+  .footer {
+    height: 195px;
+  }
+}

@@ -1,0 +1,2 @@
+[09-Aug-2013 18:17:16] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'assets/includes/header.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/ihavenoi/public_html/cupsncakescreations/index.php on line 1
+[09-Aug-2013 18:17:35] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'assets/includes/header.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home2/ihavenoi/public_html/cupsncakescreations/index.php on line 1
